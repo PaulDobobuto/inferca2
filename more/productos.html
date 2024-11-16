@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sheet.css">
+    <title>Tienda</title>
+    <style>
+    body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-image: url(photo_5012919239450930980_y.jpg);
+}
+
+header {
+    background-color: rgb(128, 128, 128);
+    color: white;
+    padding: 10px;
+    display: flex;
+    font-size: 19px;
+}
+.imagenpajua {background-image: url(valores_up.png); background-size: cover;}
+
+.productos { font-size: 15px;
+            font-family: Arial, Helvetica, sans-serif;
+}
+
+.product {
+        /*    background: #ffffff; */
+            border: 1px solid #dddddd;
+            border-radius: 5px;
+            padding: 20px;
+            margin: 20px 0;
+            text-align: center;
+        }
+
+.imagenpajua { align-items: center;}
+nav .menu {
+    list-style: none;
+    padding: 0;
+}
+
+nav .menu > li {
+    display: inline-block;
+    position: relative;
+}
+
+nav .menu a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav .submenu {
+    display: none;
+    position: absolute;
+    background-color: rgb(128, 128, 128);
+}
+
+nav .menu li:hover .submenu {
+    display: block;
+    animation: fadeIn 0.5s;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.imagenes img {
+    width: 100%;
+    max-width: 600px;
+    transition: opacity 1s ease-in-out;
+}
+
+.fade-in {
+    opacity: 0;
+}
+
+.fade-in:hover {
+    opacity: 0.5; /* Puedes cambiar esto según cómo desees la transición */
+}
+
+.footer-dark {
+    background-color: rgb(64, 64, 64);
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.footer-light {
+    background-color: rgb(241, 241, 241);
+    color: black;
+    padding: 10px;
+}
+
+.social-buttons {
+    margin-top: 10px;
+}
+
+.social-btn img {
+    width: 30px; /* Ajusta el tamaño del icono */
+}
+    </style>
+</head>
+<body>
+    <header>
+        <img src="271211621_221973460125446_7329643444574138755_n-removebg-preview.png" height="50" alt="" srcset=""> <br>
+        <h1></h1>
+        <nav>
+            <ul class="menu">
+                <li><a href="index.html">Inicio</a></li>
+                <li>
+                    <a href="#">Sobre Nosotros</a>
+                    <ul class="submenu">
+                        <li><a href="historia.html">Reseña</a></li>
+                        <li><a href="ubicacion.html">Ubicación</a></li>
+                    </ul>
+                </li>
+                <li><a href="contacto.html">Contacto</a></li>
+            <li>
+            <a href="productos.html">Productos</a>
+            </li>
+            <li> <a href="formulo.html">Formulario</a></li>
+            </ul>
+            </nav>
+    </header>
+<div class="productos"> </div>
+
+<div class="product">
+    <h3>Producto 1</h3>
+    <p>Descripción del producto 1.</p>
+    <p>Precio: $10.00</p>
+</div>
+
+<div class="product">
+    <h3>Producto 2</h3>
+    <p>Descripción del producto 2.</p>
+    <p>Precio: $20.00</p>
+</div>
+
+<div class="product">
+    <h3>Producto 3</h3>
+    <p>Descripción del producto 3.</p>
+    <p>Precio: $30.00</p>
+</div>
+
+<div class="product">
+    <h3>Producto 1</h3>
+    <p>Descripción del producto 1.</p>
+    <p>Precio: $10.00</p>
+</div>
+
+<div class="product">
+    <h3>Producto 2</h3>
+    <p>Descripción del producto 2.</p>
+    <p>Precio: $20.00</p>
+</div>
+
+<div class="product">
+    <h3>Producto 3</h3>
+    <p>Descripción del producto 3.</p>
+    <p>Precio: $30.00</p>
+</div>
+
+<div class="product">
+    <h3>Producto 1</h3>
+    <p>Descripción del producto 1.</p>
+    <p>Precio: $10.00</p>
+</div>
+
+<div class="product">
+    <h3>Producto 2</h3>
+    <p>Descripción del producto 2.</p>
+    <p>Precio: $20.00</p>
+</div>
+
+<div class="product">
+    <h3>Producto 3</h3>
+    <p>Descripción del producto 3.</p>
+    <p>Precio: $30.00</p>
+</div>
+</div>
+    <main>
+        <section class="imagenes">
+            <img src="imagen1.jpg" alt="Imagen 1" class="fade-in">
+            <img src="imagen2.jpg" alt="Imagen 2" class="fade-in">
+        </section>
+    </main>
+
+    <div class="imagenpajua">
+    <img src="" width="">
+    </div>
+    
+    <footer class="footer-dark">
+        <p>&copy; 2024 Mi Página Web - Todos Los Derechos Reservados.</p>
+        <img src="contacto.png" width="131">
+        <p>infercauno@gmail.com / infercados@gmail.com</p> <br>
+
+        <div class="social-buttons">
+            <a href="https://x.com/Prensa_Inferca/" target="_blank" class="social-button" id="twitter-button">X</a>
+            <a href="https://m.facebook.com/inferca.insumosferroviarios/?locale=es_ES" target="_blank" class="social-button" id="facebook-button">Facebook</a>
+            <a href="https://www.instagram.com/Inferca.ve/" target="_blank" class="social-button" id="instagram-button">Instagram</a>
+            <a href="https://www.mppt.gob.ve/catg/entes/inferca/" target="_blank" class="social-button" id="youtube-button">MPPT</a>
+        </div>
+    </footer>
+
+    <footer class="footer-light">
+        <p>© 2024. Todos los derechos reservados <br></p>
+    </footer>
+
+</body>
+</html>
